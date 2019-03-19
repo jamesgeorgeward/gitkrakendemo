@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitKrakenDemo.Web", "GitKrakenDemo.Web\GitKrakenDemo.Web.csproj", "{D93F4EBE-5C56-45A0-B63C-BF47D19BDCB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitKrakenDemo.BLL", "GitKrakenDemo.BLL\GitKrakenDemo.BLL.csproj", "{2A7192F6-9A74-4854-875B-A096269AB400}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D93F4EBE-5C56-45A0-B63C-BF47D19BDCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D93F4EBE-5C56-45A0-B63C-BF47D19BDCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D93F4EBE-5C56-45A0-B63C-BF47D19BDCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7192F6-9A74-4854-875B-A096269AB400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7192F6-9A74-4854-875B-A096269AB400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7192F6-9A74-4854-875B-A096269AB400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7192F6-9A74-4854-875B-A096269AB400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
