@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitKrakenDemo.BLL", "GitKra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitKrakenDemo.DAL", "GitKrakenDemo.DAL\GitKrakenDemo.DAL.csproj", "{FD2BC73E-BEF4-449F-8849-6432D1371C9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitKrakenDemo.uSmart", "GitKrakenDemo.uSmart\GitKrakenDemo.uSmart.csproj", "{78C71737-20C2-461F-9D74-3423084FE5A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{FD2BC73E-BEF4-449F-8849-6432D1371C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD2BC73E-BEF4-449F-8849-6432D1371C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD2BC73E-BEF4-449F-8849-6432D1371C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C71737-20C2-461F-9D74-3423084FE5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C71737-20C2-461F-9D74-3423084FE5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C71737-20C2-461F-9D74-3423084FE5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C71737-20C2-461F-9D74-3423084FE5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
