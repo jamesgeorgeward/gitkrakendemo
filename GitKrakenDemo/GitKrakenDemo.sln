@@ -4,10 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitKrakenDemo.Web", "GitKrakenDemo.Web\GitKrakenDemo.Web.csproj", "{D93F4EBE-5C56-45A0-B63C-BF47D19BDCB6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD2BC73E-BEF4-449F-8849-6432D1371C9C} = {FD2BC73E-BEF4-449F-8849-6432D1371C9C}
+		{2A7192F6-9A74-4854-875B-A096269AB400} = {2A7192F6-9A74-4854-875B-A096269AB400}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitKrakenDemo.BLL", "GitKrakenDemo.BLL\GitKrakenDemo.BLL.csproj", "{2A7192F6-9A74-4854-875B-A096269AB400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitKrakenDemo.DAL", "GitKrakenDemo.DAL\GitKrakenDemo.DAL.csproj", "{FD2BC73E-BEF4-449F-8849-6432D1371C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitKrakenDemo.DAL", "GitKrakenDemo.DAL\GitKrakenDemo.DAL.csproj", "{FD2BC73E-BEF4-449F-8849-6432D1371C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
